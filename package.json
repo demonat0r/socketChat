@@ -1,0 +1,22 @@
+{
+  "name": "socketshat",
+  "version": "1.0.0",
+  "description": "Realtime chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "demonat0r",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.16",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "socket.io-logger": "0.0.2"
+  }
+}
